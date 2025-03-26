@@ -1,0 +1,43 @@
+h1 {
+  color: blue;
+}
+
+ol[type="I"] li {
+  font-family: "Times New Roman", serif;
+  padding: 5px 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.checkerboard {
+  display: grid;
+  grid-template-columns: repeat(8, 50px);
+  grid-template-rows: repeat(8, 50px);
+  gap: 0;
+}
+
+.square {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+}
+
+.square:nth-child(even) {
+  background-color: white;
+}
+
+.square:nth-child(odd) {
+  background-color: black;
+}
+
+.checkerboard .square:nth-child(odd):nth-child(even),
+.checkerboard .square:nth-child(even):nth-child(odd) {
+  background-color: white;
+}
