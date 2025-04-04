@@ -1,0 +1,63 @@
+body {
+  background-color: rgb(220, 243, 245);
+  width: 60%;
+}
+
+.box {
+  border: 5px ridge;
+}
+
+header {
+  padding: 5px;
+  text-align: center;
+  background-color: white;
+  font-size: 24px;
+}
+
+nav {
+  padding: 5px;
+  border-top: 5px ridge;
+  margin-top: -5px;
+  text-align: center;
+  background-color: white;
+  font-size: 24px;
+}
+
+.container {
+  height: 200px;
+  margin-top: -5px;
+  border-top: 5px ridge;
+  text-align: center;
+  background-color: white;
+  font-size: 24px;
+  padding-bottom: 5px;
+}
+.left {
+  float: left;
+  width: 60%;
+  border-right: 5px ridge;
+  vertical-align: baseline;
+  line-height: 450%;
+}
+
+section {
+  height: 100px;
+  border-bottom: 5px ridge;
+}
+
+article {
+  height: 100px;
+}
+
+.right {
+  vertical-align: baseline;
+  line-height: 860%;
+}
+
+footer {
+  padding: 5px;
+  border-top: 5px ridge;
+  text-align: center;
+  background-color: white;
+  font-size: 24px;
+}
