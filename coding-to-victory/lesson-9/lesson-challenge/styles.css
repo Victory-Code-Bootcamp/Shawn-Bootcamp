@@ -1,0 +1,25 @@
+.lora-font {
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+p {
+  font-size: 2rem; /* Sets the font size to 2 rem units */
+}
+
+body {
+  text-transform: uppercase; /* Transforms all text to uppercase */
+}
+
+body {
+  text-align: center; /* Centers all text on the page */
+}
+
+body {
+  background-color: #adf19fa1; /* Adds a light gray background */
+  /* Or use a background image */
+  /* background: url('background.jpg') no-repeat center center fixed; */
+  /* background-size: cover; */
+}
